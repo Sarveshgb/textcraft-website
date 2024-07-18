@@ -12,7 +12,7 @@ This is a simple text editor web application that allows users to customize text
 
 ## Deployment
 
-The project is deployed and accessible at: [Simple Text Editor](https://sarvesh-textcraft.netlify.app/)
+The project is deployed and accessible at: [Deploy link](https://sarvesh-textcraft.netlify.app/)
 
 ## Technologies Used
 
