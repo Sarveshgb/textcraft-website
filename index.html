@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Text Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>TextCraft Website</h2>
+    <div class="container">
+        
+        <div id="editor" contenteditable="true" class="editor-placeholder"></div>
+
+        <div id="toolbar">
+            <select id="font-family">
+                <option value="">Select Font Family</option>
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+
+            <input type="color" id="font-color">
+
+            <input type="number" id="font-size" min="10" max="72" placeholder="10">
+
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+
+            <button id="add-text">Add New Text</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

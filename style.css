@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Optional: adds some space between the editor and the toolbar */
+    margin-right: 20px;
+}
+
+#editor {
+    border: 1px solid #cbc2c2;
+    min-height: 200px;
+    padding: 20px;
+    flex-grow: 1; /* Allows the editor to take up remaining space */
+    margin-left: 20px;
+
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column; /* Stacks toolbar items vertically */
+    padding: 10px;
+    background-color: #f0f0f0;
+    min-width: 200px; /* Optional: sets a minimum width for the toolbar */
+    gap: 10px; /* Adds space between toolbar items */
+    max-height: 210px;
+}
+h2{
+    text-align: center;
+}
